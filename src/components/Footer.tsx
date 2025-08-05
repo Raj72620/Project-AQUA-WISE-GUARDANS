@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { 
-  Droplets, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  LinkedinIcon, 
+import {
+  Droplets,
+  Mail,
+  Phone,
+  MapPin,
+  LinkedinIcon,
   TwitterIcon,
   ExternalLink,
   Heart
@@ -27,22 +27,34 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-water-light leading-relaxed">
-              Revolutionizing water conservation in educational and senior care facilities 
+              Revolutionizing water conservation in educational and senior care facilities
               through intelligent IoT monitoring and AI-powered solutions.
             </p>
             <div className="flex gap-3">
-              <Button variant="ghost" size="sm" className="text-white hover:bg-white/10">
-                <LinkedinIcon className="w-4 h-4" />
-              </Button>
-              <Button variant="ghost" size="sm" className="text-white hover:bg-white/10">
-                <TwitterIcon className="w-4 h-4" />
-              </Button>
+              <a
+                href="https://www.linkedin.com/in/yatish-gottapu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="ghost" size="sm" className="text-white hover:bg-white/10">
+                  <LinkedinIcon className="w-4 h-4" />
+                </Button>
+              </a>
+              <a
+                href="https://github.com/yatish2026"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="ghost" size="sm" className="text-white hover:bg-white/10">
+                  <ExternalLink className="w-4 h-4" />
+                </Button>
+              </a>
               <Button variant="ghost" size="sm" className="text-white hover:bg-white/10">
                 <Mail className="w-4 h-4" />
               </Button>
             </div>
           </div>
-          
+
           {/* Solutions */}
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Solutions</h3>
@@ -54,7 +66,7 @@ const Footer = () => {
               <a href="#" className="block text-water-light hover:text-white transition-colors">AquaCoin Rewards</a>
             </div>
           </div>
-          
+
           {/* Resources */}
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Resources</h3>
@@ -66,44 +78,43 @@ const Footer = () => {
               <a href="#" className="block text-water-light hover:text-white transition-colors">Support Center</a>
             </div>
           </div>
-          
+
           {/* Contact */}
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Contact</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-water-light" />
-                <span className="text-water-light">hello@aquawiseguardians.com</span>
+                <span className="text-water-light">nishanthraj9618@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-water-light" />
-                <span className="text-water-light">+1 (555) 123-AQUA</span>
+                <span className="text-water-light">+91 8072228435</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-water-light mt-0.5" />
                 <span className="text-water-light">
-                  Stanford University<br />
-                  Environmental Engineering Dept.<br />
-                  Stanford, CA 94305
+                  svcet<br />
+                  <br />
                 </span>
               </div>
             </div>
           </div>
         </div>
-        
+
         {/* Bottom Section */}
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-6 text-sm text-water-light">
-              <span>© 2024 AquaWise Guardians. All rights reserved.</span>
+              <span>© 2025 team_onyx. All rights reserved.</span>
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
             </div>
-            
+
             <div className="flex items-center gap-2 text-sm text-water-light">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-400 fill-current" />
-              <span>by Team Onyx at Stanford University</span>
+              <span>by Team Onyx</span>
             </div>
           </div>
         </div>
